@@ -1,16 +1,10 @@
 // Copyright 2022 UNN-IASR
-#include "fun.h"
-
-
 unsigned int faStr1(const char* str) {
     int i = 0;
     int a = 0;
     bool b = false;
     bool c = false;
-}
-
-unsigned int faStr1(const char *str) {
-    return 0;
+    
     while (str[i] != 0) {
         char d = str[i];
         if (d != ' ' && !b)
@@ -29,10 +23,6 @@ unsigned int faStr1(const char *str) {
     if (b && !c)
         a++;
     return a;
-}
-
-unsigned int faStr2(const char *str) {
-    return 0;
 }
 
 unsigned int faStr2(const char* str) {
@@ -64,10 +54,6 @@ unsigned int faStr2(const char* str) {
     if (b && !c)
         a++;
     return a;
-}
-
-unsigned int faStr3(const char *str) {
-    return 0;
 }
 
 unsigned int faStr3(const char* str) {
