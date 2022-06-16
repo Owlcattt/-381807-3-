@@ -77,3 +77,4 @@ unsigned int faStr3(const char* str) {
         a++;
     return static_cast<int>(static_cast<double>(b) / a + 0.5);
 }
+
